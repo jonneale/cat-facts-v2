@@ -19,7 +19,7 @@
                     [:h2 (or title "Fascinating Facts Featuring Furry Feline Friends")]
                     [:h3 {:style "color: #B74C11;"} (format "Aloha %s! Here are your daily cat facts!" recipient-name)]
                     [:p "We are your daily source of all things cat. We have an exciting programme for you today, so stick around, it's time to learn us some cats!"]
-                    [:div.image {:style "width:20%; float:right;"}
+                    [:div.image {:style "width: auto;"}
                      [:img {:style "max-width: 400px" :src (format "%s/images/header.jpg" config/app-base-url )}]]
                     [:br]
                     [:ul {:style "color: #B74C11;"}
@@ -30,7 +30,7 @@
                         [:p
                          [:img {:style "max-width: 335px;" :src (format "%s/images/%s/%s" config/app-base-url image-folder image-name)}]]])]
                     [:h3 {:style "color: #B74C11;"} "Cats of the day"]
-                    [:p "Not had enough of your purring pals to leave you catisfied? Here are our top Santa cats for your purr-usal!"]
+                    [:p "Not had enough of your purring pals to leave you catisfied? Here are our top cats for your purr-usal!"]
                     [:br]
                     (for [[cat-caption image-name] cats-of-the-day]
                       [:span
