@@ -37,5 +37,5 @@
                        [:p
                         [:img {:style "max-width: 335px;" :src (format "%s/images/%s/%s" config/app-base-url image-folder image-name)}]]
                        [:p cat-caption]])
-                    [:p "Thats all for cat facts today but stay tuned for more exciting facts about your favourite tuna lovers!"]
+                    [:h3 "Thats all for cat facts today but stay tuned for more exciting facts about your favourite tuna lovers!"]
                     [:img {:src (format "%s/images/dance.gif" config/app-base-url)}]]]]]]))

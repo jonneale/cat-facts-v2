@@ -19,6 +19,7 @@
                  [compojure "1.2.1"]
                  [ring          "1.3.1"]
                  [environ "0.5.0"]
+                 [com.draines/postal "1.11.3"]
                  [org.clojure/data.json "0.2.5"]
                 ;; [hiccup "1.0.5"]
                  [org.clojure/data.csv "0.1.2"]
