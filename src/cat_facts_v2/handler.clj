@@ -14,7 +14,7 @@
        []
        (index/render {:title "Test Cat Facts!"
                       :recipient-name "Test recipient"
-                      :image-folder "Test"
+                      :image-folder "test"
                       :facts [["Fact 1" "fact1.jpg"]
                               ["Fact 2" "fact2.jpg"]
                               ["Fact 3" "fact3.jpg"]]

@@ -11,6 +11,7 @@
   :main    cat-facts-v2.main
   :hooks   [environ.leiningen.hooks]
   :profiles {:uberjar {:aot :all}}
+  :uberjar-name "cat-facts-v2-standalone.jar"
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [markdown-clj "0.9.57"]
                  [hitman "0.1.0"]
