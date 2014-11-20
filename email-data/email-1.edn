@@ -1,0 +1,5 @@
+{:title "First generated cat facts"
+ :recipient-name "First Recipient"
+ :image-folder "Test"
+ :facts [["First fact" "fact1.jpg"] ["Second fact" "fact2.jpg"] ["Third fact" "fact3.jpg"]]
+ :cats-of-the-day [["First caption" "daily1.jpg"] ["Second caption" "daily2.jpg"] ["Third caption" "daily3.jpg"]]}}
