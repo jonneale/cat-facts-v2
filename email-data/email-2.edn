@@ -1,8 +1,8 @@
-{:title "First generated cat facts"
- :recipient-name "First Recipient"
+{:title "Facts about cats that will blow your mittens off"
+ :recipient-name "Eleanor Bumface McGee Ocean"
  :image-folder "email-2"
  :facts [["According to Hebrew legend, Noah prayed to God for help protecting all the food he stored on the ark from being eaten by rats. In reply, God made the lion sneeze, and out popped a cat!" "fact1.jpg"]
          ["In Holland’s embassy in Moscow, staff noticed that the two Siamese cats kept meowing and clawing at the walls of the building. Their owners finally investigated, thinking they would find mice. Instead, they discovered microphones hidden by Russian spies. The cats heard the microphones when they turned on" "fact2.jpg"]
          ["Approximately 40,000 people are bitten by cats int he U.S. annually.
 e-owch!" "fact3.jpg"]]
- :cats-of-the-day [["First caption" "daily1.jpg"] ["Second caption" "daily2.jpg"] ["Third caption" "daily3.jpg"]]}
+ :cats-of-the-day [["I am but a mere-cat" "daily1.jpg"] ["Hipster cat has a better beard than you" "daily2.jpg"]]}
