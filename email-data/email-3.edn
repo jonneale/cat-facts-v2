@@ -4,4 +4,4 @@
  :facts [["Cats have a third eyelid called a 'haw'" "fact1.jpg"]
          ["As a child, Nikola Tesla was shocked by static electricity from his pet cat Macak, inspiring him to unlock the secrets of electricity!" "fact2.jpg"]
          ["Cats taste buds can't detect sugar. So much for my kitty bakery idea" "fact3.jpg"]]
- :cats-of-the-day [["She'll never find us in here, we are invisible!" "daily1.jpg"] ["I love these new high-tech pizza warmers" "daily2.jpg"] ["Wait, this isn't the floss!" "daily3.jpg"]]]}
+ :cats-of-the-day [["She'll never find us in here, we are invisible!" "daily1.jpg"] ["I love these new high-tech pizza warmers" "daily2.jpg"] ["Wait, this isn't the floss!" "daily3.jpg"]]}

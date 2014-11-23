@@ -1,0 +1,7 @@
+{:title "Facts about cats that will blow your mittens off"
+ :recipient-name "Smotchkiss"
+ :image-folder "email-3"
+ :facts [["Stubbs the cat has been honorary mayor of Talketeetna, Alaska since 1997. I'd vote for him!" "fact1.jpg"]
+         ["The oldest video of cats on Youtube dates from 1894" "fact2.jpg"]
+         ["Sam Moyle, from Chard, Somerset, gave her Tortoiseshell/tabby Persian Pryby Doo featured at this years national cat show, the show name Leadproof, after she survived lead poisoning." "fact3.jpg"]]
+ :cats-of-the-day [["He looks so beautiful when he's asleep" "daily1.jpg"] ["Cupboard cat doesn't approve of your lifestyle choices" "daily2.jpg"] ["This party is not going how I imagined" "daily3.jpg"]]}
