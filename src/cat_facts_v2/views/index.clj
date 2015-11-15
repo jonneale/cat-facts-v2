@@ -18,7 +18,7 @@
                     [:h1 {:style "color: #B74C11;"} "Sloth Facts!"]
                     [:h2 (or title "Stationary Strange Stats Starring Slow Stationary Strangers!")]
                     [:h3 {:style "color: #B74C11;"} (format "Aloha %s! Here are your daily sloth facts!" recipient-name)]
-                    [:p "We are your daily source of all things sloth. We have an exciting programme for you today, so stick around, it's time to learn us some cats!"]
+                    [:p "We are your daily source of all things sloth. We have an exciting programme for you today, so stick around, it's time to learn us some sloths!"]
                     [:div.image {:style "width: auto;"}
                      [:img {:style "max-width: 400px" :src (format "%s/images/header.jpg" config/app-base-url )}]]
                     [:br]
@@ -29,13 +29,13 @@
                         [:li {:style "color:#333; font-size:1em;"} fact]
                         [:p
                          [:img {:style "max-width: 335px;" :src (format "%s/images/%s/%s" config/app-base-url image-folder image-name)}]]])]
-                    [:h3 {:style "color: #B74C11;"} "Cats of the day"]
-                    [:p "Not had enough of your purring pals to leave you catisfied? Here are our top cats for your purr-usal!"]
+                    [:h3 {:style "color: #B74C11;"} "Sloths of the day"]
+                    [:p "Not had enough of your furry funnies? Here are our top sloths"]
                     [:br]
                     (for [[cat-caption image-name] cats-of-the-day]
                       [:span
                        [:p
                         [:img {:style "max-width: 335px;" :src (format "%s/images/%s/%s" config/app-base-url image-folder image-name)}]]
                        [:p cat-caption]])
-                    [:h3 "Thats all for cat facts today but stay tuned for more exciting facts about your favourite tuna lovers!"]
+                    [:h3 "Thats all for sloth facts today but stay tuned for more exciting facts about your favourite tree lovers!"]
                     [:img {:src (format "%s/images/dance.gif" config/app-base-url)}]]]]]]))
