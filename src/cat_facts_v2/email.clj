@@ -8,7 +8,7 @@
   (postal/send-message {:from "facts@cat-facts.com"
                         :to [recipient-email]
                         :bcc "jonneale@gmail.com"
-                 :subject "Cat facts - your daily dose of feline fun"
+                 :subject "Sloth facts - your daily dose of slow moving sustenance"
                  :body [{:type "text/html"
                          :content (index/render data)}]}))
 
