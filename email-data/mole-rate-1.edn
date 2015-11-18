@@ -1,0 +1,9 @@
+{:subject "Mole-Rat facts - your daily dose of naked news"
+ :title "Facts about cats that will blow your socks - and everything else - off"
+ :recipient-name "Elly Smotchkiss"
+ :animal :mole-rat
+ :image-folder "mole-rat-1"
+ :facts [["A mole rat's teeth can be moved independently and can even work together like a pair of chopsticks!" "fact1.jpg"]
+         ["Despite their names, naked mole rats are neither moles nor rats (nor are they totally hairless). They are more closely related to porcupines and guinea pigs. Did we get anything right when we named these guys?" "fact2.jpg"]
+         ["No one has ever found cancer in naked mole rats; they appear to be resistant to the disease." "fact3.jpg"]]
+ :animals-of-the-day [["Jazz hands!" "daily1.jpg"] ["Welcome to the cute pit! Come on in, plenty of room!" "daily2.jpg"] ["Does my bum look big in this?" "daily3.jpg"]]}
