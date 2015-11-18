@@ -1,6 +1,7 @@
 {:subject "Mole-Rat facts - your daily dose of naked news"
  :title "Facts about cats that will blow your socks - and everything else - off"
  :recipient-name "Elly Smotchkiss"
+ :header "images/mole-rat-1/header.jpg"
  :animal :mole-rat
  :image-folder "mole-rat-1"
  :facts [["A mole rat's teeth can be moved independently and can even work together like a pair of chopsticks!" "fact1.jpg"]
