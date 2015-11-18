@@ -1,4 +1,6 @@
-{:title "Facts about sloths that will make you stop in your tracks"
+{:subject "Sloth facts - your daily dose of slow moving sustenance"
+ :title "Facts about sloths that will make you stop in your tracks"
+ :header "images/sloth-email/header.jpg"
  :recipient-name "Eleanor PitBastard Nee-Alee"
  :image-folder "sloth-email"
  :facts [["Sloths can turn their head 270 degrees!" "fact1.jpg"] ["When looking for a mate, a female sloth can let out a scream that can be heard for up to 700 meters" "fact2.jpg"] ["Up until 11,000 years ago, elephant sized sloths called Megatherium roamed South America. Think of the poo!" "fact3.jpg"]]
