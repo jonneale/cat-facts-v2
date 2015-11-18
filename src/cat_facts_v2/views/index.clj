@@ -53,7 +53,7 @@
                     [:h3 {:style "color: #B74C11;"} "Sloths of the day"]
                     [:p (animal-specific :more-header animal)]
                     [:br]
-                    (for [[animal-caption image-name] cats-of-the-day]
+                    (for [[animal-caption image-name] animals-of-the-day]
                       [:span
                        [:p
                         [:img {:style "max-width: 335px;" :src (format "%s/images/%s/%s" config/app-base-url image-folder image-name)}]]
