@@ -1,6 +1,14 @@
 # template-project
 
-A Clojure library designed to ... well, that part is up to you.
+To preview, make an edn data file using the email-data folder examples as a template, then run:
+
+`bin/make-email /path/to/edn/data`
+
+This will generate an html version of the email.
+
+To actually send the email, run
+
+`bin/send-email recipient-email-address /path/to/edn/data`
 
 ## Usage
 
