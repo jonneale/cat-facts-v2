@@ -7,7 +7,7 @@
 (def animal-text
   {:name   {:sloth "sloth"
             :cat "cat"
-            :mole-rate "naked mole-rat"}
+            :mole-rat "naked mole-rat"}
    :header {:sloth "Sloth Facts!"
             :cat   "Cat Facts!"
             :mole-rat "Naked Mole-Rat Facts!"}
@@ -31,14 +31,14 @@
                [:html
                 [:head
                  [:meta {:charset "utf-8"}]
-                 [:title "Aloha from Sloth Facts!"]]
+                 [:title (format "Aloha from %s" (animal-specific :header animal))]]
                 [:body {:style "color:#333;"}
                  [:div.whole {:style "width:100%; margin:auto;"}
                   [:div.container {:style "font-family: Tahoma, Arial, Geneva; sans-serif; font-size: 12px; color: #333;"}
                    [:div.content {:style "margin: auto;"}
                     [:h1 {:style "color: #B74C11;"} (animal-specific :header animal)]
                     [:h2 (or title (animal-specific title animal))]
-                    [:h3 {:style "color: #B74C11;"} (format "Aloha %s! Here are your daily %s facts!" (animal-specific :name animal) recipient-name)]
+                    [:h3 {:style "color: #B74C11;"} (format "Aloha %s! Here are your daily %s facts!" recipient-name (animal-specific :name animal))]
                     [:p (format "We are your daily source of all things %s. We have an exciting programme for you today, so stick around, it's time to learn us some %ss!" (animal-specific :name animal) (animal-specific :name animal))]
                     [:div.image {:style "width: auto;"}
                      [:img {:style "max-width: 400px" :src (if header
@@ -52,7 +52,7 @@
                         [:li {:style "color:#333; font-size:1em;"} fact]
                         [:p
                          [:img {:style "max-width: 335px;" :src (format "%s/images/%s/%s" config/app-base-url image-folder image-name)}]]])]
-                    [:h3 {:style "color: #B74C11;"} "Sloths of the day"]
+                    [:h3 {:style "color: #B74C11;"} (format "%ss of the day" (clojure.string/capitalize (animal-specific :name animal)))]
                     [:p (animal-specific :more-header animal)]
                     [:br]
                     (for [[animal-caption image-name] animals-of-the-day]
