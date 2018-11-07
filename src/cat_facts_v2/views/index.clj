@@ -7,18 +7,23 @@
 (def animal-text
   {:name   {:sloth "sloth"
             :cat "cat"
-            :mole-rat "naked mole-rat"}
+            :mole-rat "naked mole-rat"
+            :cadie    "cadie"}
    :header {:sloth "Sloth Facts!"
             :cat   "Cat Facts!"
-            :mole-rat "Naked Mole-Rat Facts!"}
+            :mole-rat "Naked Mole-Rat Facts!"
+            :cadie    "Cadie Baby Facts!"}
    :title  {:sloth "Stationary Strange Stats Starring Slow Stationary Strangers!"
             :cat "Fascinating Facts Featuring Furry Feline Friends"
-            :mole-rat "Natty Noteworthy News Notarising Naughty Nude Nitwits"}
+            :mole-rat "Natty Noteworthy News Notarising Naughty Nude Nitwits"
+            :cadie "Bonus Bulletin Blending Breathtaking Beautiful Baby Bonanza"}
    :more-header {:sloth "Not had enough of your furry funnies? Here are our top sloths"
-                 :cat "Not had enough of your purring pals to leave you catisfied? Here are our top cats for your purr-usal!"}
+                 :cat "Not had enough of your purring pals to leave you catisfied? Here are our top cats for your purr-usal!"
+                 :cadie "Not had enough of your beautiful baby? Here are our top Cadie Baby snaps!"}
    :goodbye     {:sloth "That's all for sloth facts today but stay tuned for more exciting facts about your favourite tree lovers!"
                  :cat "That's all for cat facts today but stay tuned for more exciting facts about your favourite tuna lovers!"
-                 :mole-rat "That's all for naked mole-rat facts today, but stay tuned for more exciting facts about your favourite birthday-suited buddies!"}})
+                 :mole-rat "That's all for naked mole-rat facts today, but stay tuned for more exciting facts about your favourite birthday-suited buddies!"
+                 :cadie "That's all for Cadie baby facts today, but stay tuned for more exciting facts about your favourite gurgling girl!"}})
 
 (defn animal-specific
   [part animal]
